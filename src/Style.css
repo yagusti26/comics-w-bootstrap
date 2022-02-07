@@ -271,6 +271,47 @@ header .container .col-md-7 p {
   
 }
 
+/* Section 5 */
+
+.section-5 {
+  height: 70vmin;
+  margin-top: 15vmin;
+  background: url("../assets/boy.jpg");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+  
+}
+
+.section-5 .col-md-12 > h1 {
+  padding: 13em 0 0.5em 0;
+  color: rgb(255, 255, 255);
+  font-size: 4vmin;
+}
+
+.section-5 .col-md-12 > p {
+  padding: 0 4em;
+  padding-bottom: 2em;
+  color: var(--light-gray);
+  font-size: 3vmin;
+}
+
+.section-5 .desktop {
+  background: white;
+  display: inline-block;
+  border-radius: 3em;
+  padding: 2vmin 4.5vmin;
+  margin: 1em;
+}
+
+.section-5 .desktop h3 {
+  font-size: 4vmin;
+}
+
+.section-5 .desktop p {
+  font-size: 2vmin;
+}
+
 
 
 footer {
