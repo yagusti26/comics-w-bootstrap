@@ -224,7 +224,7 @@ header .container .col-md-7 p {
 .section-3 {
   height: 70vmin;
   margin-top: 15vmin;
-  background: url(".");
+  background: url("../assets/boy.jpg");
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
@@ -232,9 +232,9 @@ header .container .col-md-7 p {
 }
 
 .section-3 .col-md-12 > h1 {
-  padding: 2em 0 0.5em 0;
-  color: whitesmoke;
-  font-size: 6vmin;
+  padding: 13em 0 0.5em 0;
+  color: rgb(255, 255, 255);
+  font-size: 4vmin;
 }
 
 .section-3 .col-md-12 > p {
@@ -261,6 +261,9 @@ header .container .col-md-7 p {
 }
 
 /* Section 4 */
+.section-4 {
+  background-image:linear-gradient(to bottom, #ff512f, #860909);
+}
 .noticias {
   max-width: 50%;
   height: auto;
