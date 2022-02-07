@@ -216,12 +216,19 @@ header .container .col-md-7 p {
   padding: 1em 0.5em;
 }
 
+
+
+
 /* Section 3 */
 
 .section-3 {
   height: 70vmin;
   margin-top: 15vmin;
-  background: var(--bggradient);
+  background: url(".");
+  background-position: -24rem -19rem;
+  background-size: 150%;
+  position: relative;
+  
 }
 
 .section-3 .col-md-12 > h1 {
