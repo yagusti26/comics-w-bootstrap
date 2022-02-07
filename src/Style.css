@@ -150,16 +150,12 @@ header .container .col-md-7 p {
 
 
 
-/* Section 3 */
-
-.section-3 {
+/* Section 3 */.section-3 {
   width: 100%;
   height: 55vmin;
-  background: url("../assets/boy.jpg");
-  background-position: -24rem -19rem;
-  background-size: 150%;
-  position: relative;
+  background-image:linear-gradient(to bottom, #4b4847, #141010);
 }
+
 
 .section-3 .col-md-12 > h1 {
   padding: 2em 0 0.5em 0;
@@ -190,6 +186,14 @@ header .container .col-md-7 p {
   font-size: 2vmin;
 }
 
+@media (min-width: 992px) {
+  .section-3 {
+    background: url("../assets/boy.jpg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+  }
+}
 
 /* Section 4 */
 .section-4 {
