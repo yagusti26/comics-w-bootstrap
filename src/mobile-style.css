@@ -2,11 +2,7 @@
   header .navbar-brand {
     padding-left: 1rem;
   }
-  .section-1 .row .col-md-6 .panel {
-    position: initial;
-    width: initial;
-    height: initial;
-  }
+  
   .section-2 .cover {
     background-position: -25vmin -10vmin;
   }
