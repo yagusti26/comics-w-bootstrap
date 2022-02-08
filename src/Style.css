@@ -153,7 +153,7 @@ header .container .col-md-7 p {
 .cover {
   width: 100%;
   height: 55vmin;
-  background: url("../assets/pexels-photo-452738.jpeg");
+  background: url("../assets/boy.jpg");
   background-position: -24rem -19rem;
   background-size: 150%;
   position: relative;
@@ -306,81 +306,90 @@ header .container .col-md-7 p {
   background-image:linear-gradient(to bottom, #ff512f, #860909);
 }
 
-/* Forms */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
-
-.height {
-    height: 100vh
+/* CONTACTO */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+#contacto {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1f26;
+}
+.containerForm {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.leftForm {
+  width: 50%;
+  height: 600px;
+  background: url("../assets/header-img.png")
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+.rightForm {
+  width: 50%;
+  min-height: 400px;
+  background-color: #303137;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: white;
+  margin-left: -150px;
+}
+.rightForm h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.rightForm p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.rightForm a {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
 }
 
 
-.circle {
-    height: 20px;
-    width: 20px;
-    display: flex;
-    align-items: left;
-    justify-content: center;
-    color: #fff;
-    font-size: 10px;
-    border-radius: 50%
+@media only screen and (max-width: 768px) {
+  .containerForm {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+  .leftForm {
+    width: 100%;
+    height: 400px;
+  }
+  .rightForm {
+    width: 90%;
+    margin: 0;
+    margin-top: -100px;
+  }
 }
 
-.form-input {
-    position: relative;
-    margin-bottom: 10px;
-    margin-top: 10px
-}
-
-.form-input i {
-    position: absolute;
-    font-size: 18px;
-    top: 15px;
-    left: 10px
-}
-
-.form-control {
-    height: 50px;
-    background-color: #ffffff;
-    text-indent: 24px;
-    font-size: 15px
-}
-
-.form-control:focus {
-    background-color: #ffffff;
-    box-shadow: none;
-    color: #fff;
-    border-color: #4f63e7
-}
-
-.form-check-label {
-    margin-top: 2px;
-    font-size: 14px
-}
-
-.signup {
-    height: 50px;
-    font-size: 14px
-}
-
-.social {
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #eee;
-    border-radius: 50%;
-    margin-right: 10px;
-    cursor: pointer
-}
-
-.social:hover {
-    background-color: #0d6efd;
-    border-color: #0d6efd
-}
-
-
-
+/* CONTACTO END */
 
 
 footer {
@@ -410,7 +419,6 @@ footer .column i {
   color: #dd2476;
 }
 
-/* It is Adjacent sibling combinator */
 
 footer .column i + i {
   padding: 0 0.5em;
